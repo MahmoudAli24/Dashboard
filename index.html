@@ -1,10 +1,12 @@
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Dashboard</title>
   </head>
   <body>
     <div class="page">
@@ -113,6 +115,25 @@
               class="visit d-block fs-14 rad-6 bg-blue c-white w-fit"
               >Profile</a
             >
+          </div>
+          <div class="quick-draft bg-white rad-10 p-20">
+            <h2 class="c-black mt-0 mb-10">Quick Draft</h2>
+            <p class="c-grey fs-15 mb-20">Write A Draft For Your Ideas</p>
+            <form>
+              <input
+                class="d-block mb-20 w-full p-10 b-none bg-eee rad-6"
+                type="text"
+                placeholder="Title"
+              />
+              <textarea
+                class="d-block mb-20 w-full p-10 b-none bg-eee rad-6"
+              ></textarea>
+              <input
+                class="save d-block bg-blue c-white b-none w-fit btn-shape"
+                type="submit"
+                value="Save"
+              />
+            </form>
           </div>
         </div>
       </div>
