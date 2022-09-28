@@ -5,6 +5,9 @@
   --green-color: #22c55e;
   --red-color: #f44336;
   --grey-color: #888;
+  --low-blue-color: #0075ff33;
+  --low-green-color: #21c45d33;
+  --low-orange-color: #f59f0a33;
 }
 /* Start padding & Margin */
 .p-5 {
@@ -150,6 +153,9 @@
 .d-flex {
   display: flex;
 }
+.f-wrap {
+  flex-wrap: wrap;
+}
 .items-c {
   align-items: center;
 }
@@ -189,11 +195,23 @@
 }
 /* End Display */
 /* Start Fonts */
+.fs-13 {
+  font-size: 13px;
+}
 .fs-14 {
   font-size: 14px;
 }
 .fs-15 {
   font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-bold {
+  font-weight: bold;
 }
 /* End Fonts */
 /* Start Pothion */
@@ -231,6 +249,15 @@
 }
 .bg-red {
   background-color: var(--red-color);
+}
+.bg-low-green {
+  background-color: var(--low-green-color);
+}
+.bg-low-orange {
+  background-color: var(--low-orange-color);
+}
+.bg-low-blue {
+  background-color: var(--low-blue-color);
 }
 /* color */
 .c-white {
@@ -296,6 +323,11 @@
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+}
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* End Components */
 
